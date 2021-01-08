@@ -7,7 +7,7 @@ curses.cbreak() # Suppression du tampon
 stdscr.keypad(True) # Activation de la gestion des touches spéciales
 curses.start_color() # Active la gestion des couleurs
 
-stdscr.addstr(0, 0, "Ceci est un essai")
+stdscr.addstr(0, 0, "Une première chaine de caractère avec curses.")
 stdscr.getkey()
 
 # stop an application
